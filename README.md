@@ -16,8 +16,9 @@ Reversing engineering video games is more often than not related to "game hackin
 5. Learn C++
 6. Learn using IDA/Ghidra
 7. Learn basics of game programming
-8. Learn the inner workings of Windows operating system, aka Windows internals
-9. Practice, practice, practice...
+8. Learn fundamentals of the Win32 API
+9. Learn the inner workings of Windows operating system, aka Windows internals
+10. Practice, practice, practice...
 
 ## Software needed for reversing
 
@@ -112,10 +113,15 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
     - [Understanding the Game Main Loop - Rodrigo Monteiro](http://higherorderfun.com/blog/2010/08/17/understanding-the-game-main-loop/)
 
 - Books:
-    - [Game Hacking: Developing Autonomous Bots for Online Games - Nick Cano](https://www.amazon.com/Game-Hacking-Developing-Autonomous-Online-ebook/dp/B01J4NKSRI)
-    - [Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software - Michael Sikorski and Andrew Honig](https://www.amazon.com/Practical-Malware-Analysis-Hands-Dissecting/dp/1593272901)
+    - Reversing and game hacking:
+        - [Game Hacking: Developing Autonomous Bots for Online Games - Nick Cano](https://www.amazon.com/Game-Hacking-Developing-Autonomous-Online-ebook/dp/B01J4NKSRI)
+        - [Practical Malware Analysis: The Hands-On Guide to Dissecting Malicious Software - Michael Sikorski and Andrew Honig](https://www.amazon.com/Practical-Malware-Analysis-Hands-Dissecting/dp/1593272901)
+    - Game programming:
+	    - [Tricks of the Windows Game Programming Gurus, Second Edition (2002) - Andre Lamothe](https://www.amazon.com/Tricks-Windows-Game-Programming-Gurus-dp-0672323699/dp/0672323699)
+	    - [Game Coding Complete, Fourth Edition (2012) - Mike McShaffry](https://www.amazon.com/Game-Coding-Complete-Fourth-McShaffry/dp/1133776574)
 
 - Google:
+    - [How to Search the Internet Effectively - WebTools Company](https://www.casey.org/media/CLS_ResourceGuides_subdocs_SearchInternetEffectively.pdf)
     - [GOOGLE CHEAT SHEET](https://library.csbs.ca/wp-content/uploads/2019/10/GOOGLE-CHEAT-SHEET.pdf)
     - [The Ultimate Google Search Operators Cheatsheet - Helvis Smoteks](https://blog.linkody.com/guides/google-search-operators-cheatsheet)
 
@@ -127,7 +133,7 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
 ## Other really useful materials
 
 - More x86 assembly learning material:
-    - [x86 Assembly Language Applicable To Reverse Engineering: The Basics – Part 1](http://resources.infosecinstitute.com/x86-assembly-language-applicable-to-reverse-engineering-the-basics-part-1/)
+    - [x86 Assembly Language Applicable To Reverse Engineering: The Basics – Part 1](https://resources.infosecinstitute.com/x86-assembly-language-applicable-to-reverse-engineering-the-basics-part-1/)
     - [X86 Assembly Language, Part 2](https://resources.infosecinstitute.com/x86-assembly-language-part-2/)
     - Lena151 Assembly Tutorials (might be outdated, but it is still recommended a lot):
         - [LearnThenTeach YouTube channel](https://www.youtube.com/channel/UCVf5kcdOr535bta-XIdeb4Q/videos)
@@ -150,24 +156,31 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
     - [[C/C++] Reverse Engineering Tutorial for newbies](http://rohitab.com/discuss/topic/35537-cc-reverse-engineering-tutorial-for-newbies/)
     - [Reverse Engineering and Function Calling by Address](https://www.codeproject.com/Articles/29527/Reverse-Engineering-and-Function-Calling-by-Addres)
     - [Internal vs. External Hacks - What's the difference?](https://guidedhacking.com/threads/internal-vs-external-hacks-whats-the-difference.8808/)
-    - [Reverse Engineering Online Games - Dragomon Hunter](http://0xbaadf00dsec.blogspot.com/2016/01/reverse-engineering-online-games.html)
+    - [Reverse Engineering Online Games - Dragomon Hunter](https://0xbaadf00dsec.blogspot.com/2016/01/reverse-engineering-online-games.html)
     - [[Tutorial] Packet Hacking and Reversing MMO](https://progamercity.net/ghack-tut/137-tutorial-packet-hacking-reversing-mmo.html)
     - [Run-time directx hooking using code injection and vtable](http://www.rohitab.com/discuss/topic/34411-run-time-directx-hooking-using-code-injection-and-vtable/)
     - [How to implement pattern-scanning to obtain offsets dynamically](https://www.unknowncheats.me/forum/general-programming-and-reversing/133228-implement-pattern-scanning-obtain-offsets-dynamically.html)
     - [C++:How to patch Bytes using PatternScan (AOB) + Explanation / Snippet](https://www.unknowncheats.me/wiki/C%2B%2B:How_to_patch_Bytes_using_PatternScan_(AOB)_%2B_Explanation_/_Snippet)
 
 - Bit flags and bit masks:
-    - [Bit manipulation with bitwise operators and bit masks](http://www.learncpp.com/cpp-tutorial/3-8a-bit-flags-and-bit-masks/)
+    - [Bit manipulation with bitwise operators and bit masks](https://www.learncpp.com/cpp-tutorial/bit-manipulation-with-bitwise-operators-and-bit-masks/)
 
 - Books and papers:
-    - [Practical Video Game Bots: Automating Game Processes using C++, Python, and AutoIt - Ilya Shpigor](https://www.amazon.com/Practical-Video-Game-Bots-Automating/dp/1484237358)
-    - [Reversing: Secrets of Reverse Engineering - Eldad Eilam](https://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817)
-    - [Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189)
-    - [X86 Disassembly - Wikibooks.org](https://upload.wikimedia.org/wikipedia/commons/5/53/X86_Disassembly.pdf)
-    - [Game Programming Algorithms and Techniques: A Platform-Agnostic Approach - Sanjay Madhav](https://www.amazon.com/Game-Programming-Algorithms-Techniques-Platform-Agnostic/dp/0321940156)
-    - [Game Programming Patterns - Robert Nystrom](http://gameprogrammingpatterns.com/contents.html)
-    - [The Ultimate Anti-Reversing Reference - Peter Ferrie](https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf)
-    - [The Art of Unpacking - Mark Vincent Yason](https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf)
+    - Reversing and game hacking:
+        - [Practical Video Game Bots: Automating Game Processes using C++, Python, and AutoIt - Ilya Shpigor](https://www.amazon.com/Practical-Video-Game-Bots-Automating/dp/1484237358)
+        - [Reversing: Secrets of Reverse Engineering - Eldad Eilam](https://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817)
+        - [X86 Disassembly - Wikibooks.org](https://upload.wikimedia.org/wikipedia/commons/5/53/X86_Disassembly.pdf)
+        - [Learning Malware Analysis: Explore the concepts, tools, and techniques to analyze and investigate Windows malware - Monnappa K A](https://www.amazon.com/Learning-Malware-Analysis-techniques-investigate/dp/1788392507)
+    - Game programming:
+        - [Game Programming Algorithms and Techniques: A Platform-Agnostic Approach - Sanjay Madhav](https://www.amazon.com/Game-Programming-Algorithms-Techniques-Platform-Agnostic/dp/0321940156)
+        - [Game Programming Patterns - Robert Nystrom](https://gameprogrammingpatterns.com/contents.html)
+    - Windows and Win32 API programming:
+        - [Programming Windows: The Definitive Guide To The Win32 Api - Charles Petzold](https://www.amazon.com/Programming-Windows-Definitive-Guide-Win32/dp/9350041057)
+        - [Windows Kernel Programming - Pavel Yosifovich](https://www.amazon.com/Windows-Kernel-Programming-Pavel-Yosifovich/dp/1977593372)
+        - [Windows Internals - Pavel Yosifovich, Alex Ionescu, Mark E. Russinovich, David A. Solomon](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189)
+    - Bypassing anti-debugging, anti-reversing, and anti-tamper techniques:
+        - [The Ultimate Anti-Reversing Reference - Peter Ferrie](https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf)
+        - [The Art of Unpacking - Mark Vincent Yason](https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf)
 
 - Curated lists of tools, tutorials, resources, and much more for reverse engineering video games:
     - [UnKnoWnCheaTs Game Hacking Wiki](https://www.unknowncheats.me/wiki/UnKnoWnCheaTs_Game_Hacking_Wiki)
@@ -178,7 +191,7 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
 ## Useful sites along the way
 
 - [Google](https://www.google.com) (seriously, use it, a lot, all the time)
-- [Official Microsoft documentation](https://docs.microsoft.com/en-us/) (includes documentations on MSVC, DirectX, Win32API, etc.)
+- [Official Microsoft documentation](https://docs.microsoft.com/en-us/) (includes documentations on MSVC, DirectX, Win32 API, etc.)
 - [Godbolt](https://godbolt.org/) (Extremely useful to verify compiler generated C++ code)
 
 ## Keywords you want to learn about in general
@@ -200,3 +213,10 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
 - External cheats
 - Threads
 - Windows PE format
+- Win32 API
+- Windows internals
+- Anti-debugging
+- Anti-reversing
+- Anti-tamper
+- Software packers
+- Software unpacking
