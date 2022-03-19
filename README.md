@@ -162,6 +162,7 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
     - [Run-time directx hooking using code injection and vtable](http://www.rohitab.com/discuss/topic/34411-run-time-directx-hooking-using-code-injection-and-vtable/)
     - [How to implement pattern-scanning to obtain offsets dynamically](https://www.unknowncheats.me/forum/general-programming-and-reversing/133228-implement-pattern-scanning-obtain-offsets-dynamically.html)
     - [C++:How to patch Bytes using PatternScan (AOB) + Explanation / Snippet](https://www.unknowncheats.me/wiki/C%2B%2B:How_to_patch_Bytes_using_PatternScan_(AOB)_%2B_Explanation_/_Snippet)
+    - [Reverse engineering a GameBoy Advance game — Complete Guide](https://macabeus.medium.com/reverse-engineering-a-gameboy-advance-game-introduction-ec185bd8e02)
 
 - Bit flags and bit masks:
     - [Bit manipulation with bitwise operators and bit masks](https://www.learncpp.com/cpp-tutorial/bit-manipulation-with-bitwise-operators-and-bit-masks/)
