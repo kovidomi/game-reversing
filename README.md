@@ -51,7 +51,8 @@ For starters get familiar with Cheat Engine, and either IDA or Ghidra.
     - [Fiddler](https://www.telerik.com/fiddler)
 
 - Other:
-    - [HxD editor (hex editor)](https://mh-nexus.de/en/hxd/)
+    - [HxD editor (basic hex editor)](https://mh-nexus.de/en/hxd/)
+    - [ImHex (advanced hex editor)](https://github.com/WerWolv/ImHex)
     - [ReClass.NET (reverse-engineering data structures in memory)](https://github.com/ReClassNET/ReClass.NET)
 
 ## Picking the right tools
@@ -97,6 +98,7 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
 ## Must-read beginner level materials
 
 - Guides to game reversing:
+    - [Game Hacking Academy](https://gamehacking.academy/)
     - [From coding to hacking: An introduction guide to practical (external) game hacking](https://www.unknowncheats.me/forum/programming-for-beginners/267073-coding-hacking-introduction-guide-practical-external-game-hacking.html)
 
 - Guides to x86 assembly:
@@ -146,6 +148,8 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
     - [NirSoft System Tools](https://www.nirsoft.net/system_tools.html)
 
 - Practical reverse engineering and game hacking materials:
+    - [Reverse Engineering/Game Patching Tutorial: Full Res Roller Coaster Tycoon with Ghidra+x64dbg+Python](https://www.youtube.com/watch?v=cwBoUuy4nGc)
+    - [Reverse Engineering and Weaponizing XP Solitaire (Mini-Course)](https://www.youtube.com/watch?v=ZmPArvsSii4)
     - [DOOM95 | Making an aimbot](https://web.archive.org/web/20200317042324/https://0x00sec.org/t/doom95-making-an-aimbot/19862)
     - [Game Hacking: Hack, Slash, Loot](https://0x00sec.org/t/game-hacking-hack-slash-loot/3711)
     - [User Mode Rootkits: IAT and Inline Hooking](https://0x00sec.org/t/user-mode-rootkits-iat-and-inline-hooking/1108)
