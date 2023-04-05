@@ -33,7 +33,7 @@ For starters get familiar with Cheat Engine, and either IDA or Ghidra.
     - [IDA (freeware edition)](https://www.hex-rays.com/products/ida/support/download_freeware/)
     - [Ghidra](https://ghidra-sre.org/)
     - [x64dbg](https://x64dbg.com)
-    - [dnSpy (decompiler, debugger, and editor for C# applications)](https://github.com/0xd4d/dnSpy)
+    - [dnSpy (decompiler, debugger, and editor for C# applications)](https://github.com/dnSpyEx/dnSpy)
 
 - Process Tools:
     - [ProcessHacker (monitor process and system resources)](https://processhacker.sourceforge.io/)
@@ -42,7 +42,7 @@ For starters get familiar with Cheat Engine, and either IDA or Ghidra.
 
 - PE Tools:
     - [Explorer Suite (PE editor)](https://ntcore.com/?page_id=388)
-    - [Detect It Easy (file type and packer identifier)](https://ntinfo.biz/index.html)
+    - [Detect It Easy (file type and packer identifier)](https://github.com/horsicq/Detect-It-Easy)
     - [TrIDNet (file identifier)](https://mark0.net/soft-tridnet-e.html)
 
 - Network Tools:
@@ -97,8 +97,6 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
 ## Must-read beginner level materials
 
 - Guides to game reversing:
-    - [GHB1 - Start Here Beginner Guide to Game Hacking](https://guidedhacking.com/threads/start-here-beginners-guide-to-learning-game-hacking.5911/)
-    - [GHB2 - Beginners Guide To Reverse Engineering](https://guidedhacking.com/threads/beginners-guide-to-reverse-engineering-tutorial.13446/)
     - [From coding to hacking: An introduction guide to practical (external) game hacking](https://www.unknowncheats.me/forum/programming-for-beginners/267073-coding-hacking-introduction-guide-practical-external-game-hacking.html)
 
 - Guides to x86 assembly:
@@ -122,7 +120,7 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
 
 - Google:
     - [How to Search the Internet Effectively - WebTools Company](https://www.casey.org/media/CLS_ResourceGuides_subdocs_SearchInternetEffectively.pdf)
-    - [GOOGLE CHEAT SHEET](https://library.csbs.ca/wp-content/uploads/2019/10/GOOGLE-CHEAT-SHEET.pdf)
+    - [GOOGLE CHEAT SHEET](https://web.archive.org/web/20220122205807/https://library.cbtsc.ca/wp-content/uploads/2019/10/GOOGLE-CHEAT-SHEET.pdf)
     - [The Ultimate Google Search Operators Cheatsheet - Helvis Smoteks](https://blog.linkody.com/guides/google-search-operators-cheatsheet)
 
 ## Must-watch youtube channels
@@ -148,15 +146,12 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
     - [NirSoft System Tools](https://www.nirsoft.net/system_tools.html)
 
 - Practical reverse engineering and game hacking materials:
-    - [GHB3 - Intermediate Guide to Game Hacking](https://guidedhacking.com/threads/ghb3-intermediate-guide-to-game-hacking.13495/)
-    - [How to make an MMO Bot - MMORPG Bot Automation](https://guidedhacking.com/threads/how-to-make-an-mmo-bot-mmorpg-bot-automation.15173/)
     - [DOOM95 | Making an aimbot](https://web.archive.org/web/20200317042324/https://0x00sec.org/t/doom95-making-an-aimbot/19862)
     - [Game Hacking: Hack, Slash, Loot](https://0x00sec.org/t/game-hacking-hack-slash-loot/3711)
     - [User Mode Rootkits: IAT and Inline Hooking](https://0x00sec.org/t/user-mode-rootkits-iat-and-inline-hooking/1108)
     - [x86 API Hooking Demystified](http://jbremer.org/x86-api-hooking-demystified/)
     - [[C/C++] Reverse Engineering Tutorial for newbies](http://rohitab.com/discuss/topic/35537-cc-reverse-engineering-tutorial-for-newbies/)
     - [Reverse Engineering and Function Calling by Address](https://www.codeproject.com/Articles/29527/Reverse-Engineering-and-Function-Calling-by-Addres)
-    - [Internal vs. External Hacks - What's the difference?](https://guidedhacking.com/threads/internal-vs-external-hacks-whats-the-difference.8808/)
     - [Reverse Engineering Online Games - Dragomon Hunter](https://0xbaadf00dsec.blogspot.com/2016/01/reverse-engineering-online-games.html)
     - [[Tutorial] Packet Hacking and Reversing MMO](https://progamercity.net/ghack-tut/137-tutorial-packet-hacking-reversing-mmo.html)
     - [Run-time directx hooking using code injection and vtable](http://www.rohitab.com/discuss/topic/34411-run-time-directx-hooking-using-code-injection-and-vtable/)
@@ -188,6 +183,13 @@ We are mainly going to focus on reversing games coded in C++ as it is still the 
     - [The Ultimate Game Hacking Resource](https://github.com/dsasmblr/game-hacking)
     - [The Ultimate Online Game Hacking Resource](https://github.com/dsasmblr/hacking-online-games)
     - [A Study Path for Game Programmer](https://miloyip.github.io/game-programmer/game-programmer.pdf)
+
+- Guided Hacking resources (As of 2023 it is now paywalled content):
+    - [GHB1 - Start Here Beginner Guide to Game Hacking](https://guidedhacking.com/threads/start-here-beginners-guide-to-learning-game-hacking.5911/)
+    - [GHB2 - Beginners Guide To Reverse Engineering](https://guidedhacking.com/threads/beginners-guide-to-reverse-engineering-tutorial.13446/)
+    - [GHB3 - Intermediate Guide to Game Hacking](https://guidedhacking.com/threads/ghb3-intermediate-guide-to-game-hacking.13495/)
+    - [How to make an MMO Bot - MMORPG Bot Automation](https://guidedhacking.com/threads/how-to-make-an-mmo-bot-mmorpg-bot-automation.15173/)
+    - [Internal vs. External Hacks - What's the difference?](https://guidedhacking.com/threads/internal-vs-external-hacks-whats-the-difference.8808/)
 
 ## Useful sites along the way
 
